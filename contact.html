@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jake & Elwood</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://kit.fontawesome.com/0b8ac13c61.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header class="main-grid">
+      <div class="header-content">
+        <a href="index.html" class="logo-link">
+          <img src="img/logo.png" alt="logo image" />
+        </a>
+        <button type="button" aria-label="open navigation" class="open-nav">&#9776;</button>
+
+        <nav class="nav">
+          <button type="button" aria-label="close navigation" class="close-nav">&times;</button>
+          <ul class="nav-list">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html">home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="about.html">about us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link current" href="contact.html">contact</a>
+            </li>
+          </ul>
+        </nav>
+      </div>
+    </header>
+      <main class="main-grid main-template">
+        <h1 class="page-title">Contact.</h1>
+        <p class="subtitle subtitle-center">Let us know how we can help you need and we’ll drive over to your place in our Bluesmobile the following day to discuss the deal.</p>
+            
+        <img class="main-image" src="img/contact.jpg" alt="a bunch of mailboxes">
+        <div class="secondary-text">
+            <h2 class="section-title">Getting in touch with us</h2>
+            <p>You can either use the form or send us an email. I'll get back in touch with you as soon as possible!</p>
+            </div>
+        <div class="main-text">
+            <form class="contact-form" action="#" method="post">
+                
+                <label class="fname-label" for="fname">First name</label>
+                <input class="fname-input" id="fname" type="text">
+                <label class="lname-label" for="lname">Last name</label>
+                <input class="lname-input" id="lname" type="text">
+                <label class="message-label" for="message">Message</label>
+                <textarea class="message-textarea"name="message" id="message"></textarea>
+                <button type="button" class="btn btn-primary btn-form">Send</button>
+
+            </form>
+        </div>
+      </main>
+      <footer class="footer main-grid">
+        <div class="footer-main">
+          <img src="img/logo.png" alt="" class="footer-logo" />
+          <p class="footer-text">
+            Two brothers from Chicago that are just trying to pay back their
+            debt by helping others with their SEO, SEM, and Content Marketing
+            needs.
+          </p>
+          <p class="footer-fineprint">© Jake&Elwood 2019</p>
+        </div>
+        <ul class="social-list">
+          <li class="social-item"><a title="facebook" href="#" class="social-link"><i class="fa-brands fa-square-facebook"></i></a></i></li>
+          <li class="social-item"><a title="twitter" href="#" class="social-link"><i class="fa-brands fa-twitter"></i></a></i></li>
+          <li class="social-item"><a title="instagram" href="#" class="social-link"><i class="fa-brands fa-instagram"></i></a></i></li>
+        </ul>
+      </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
