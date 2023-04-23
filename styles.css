@@ -53,7 +53,7 @@ strong {
   margin: -40px 0 0 15px;
 }
 
-.subtitle {
+.hero-text {
   font-size: 1.125rem;
 }
 
@@ -119,12 +119,6 @@ strong {
 }
 
 /* general layout */
-
-.container-all {
-  max-width: 1200px;
-  margin: 0 auto;
-  position: relative;
-}
 
 .main-grid {
   display: grid;
@@ -255,7 +249,7 @@ nav {
 /* hero & info */
 
 .hero {
-  background-image: url(img/hero-bg.jpg);
+  background-image: url(img/hero-bg-mobile.jpg);
   background-size: cover;
   padding: 8em 0 4em;
   color: #fff;
@@ -275,33 +269,25 @@ nav {
   }
 }
 
-@media (min-width: 600px) and (max-width: 700px) {
+@media (min-width: 600px) {
   .hero {
-    background-position: -420px -50px;
+    background-image: url(img/hero-bg-tablet.jpg);
+    background-position: center;
   }
 }
 
-@media (min-width: 701px) and (max-width: 800px) {
+@media (min-width: 1000px) {
   .hero {
-    background-position: -250px -50px;
+    background-image: url(img/hero-bg.jpg);
+    background-position: left;
   }
-}
 
-@media (min-width: 801px) and (max-width: 950px) {
-  .hero {
-    background-position: -150px -50px;
+  .hero-text {
+    margin-right: 2em;
   }
-}
 
-@media (min-width: 951px) and (max-width: 1000px) {
-  .hero {
-    background-position: -100px -50px;
-  }
-}
-
-@media (min-width: 1070px) {
-  .hero {
-    background-position: 50px -50px;
+  .hero-title {
+    margin-right: 2em;
   }
 }
 
